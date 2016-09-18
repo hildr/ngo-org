@@ -1,0 +1,35 @@
+body{
+	background-image: url(images/8.jpg);
+	background-repeat:no-repeat;
+  background-position: 50% 50%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container{
+	/*opacity: 0;*/
+  -webkit-filter:grayscale(20%);
+  filter:grayscale(20%);
+}
+img{
+	max-width: 100%;
+	margin:0 auto;
+	display:block;
+}
+
+a {
+	width:100%;
+}
+
+.container{
+	display:flex;
+	align-items:center;
+	height: 100vh;
+	} 
+
+@media screen and (min-width:768px){
+	
+	img{
+		max-width: 40%;
+			}
+}
